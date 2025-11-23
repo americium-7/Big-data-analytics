@@ -71,6 +71,31 @@ Examples
 
 Social media data (likes, posts, comments)
 
+
+
+
+Common Unix tools used:
+
+grep – search text in files
+
+awk – pattern scanning and processing
+
+sed – text editing
+
+sort – sorting data
+
+uniq – removing duplicates
+
+wc – word or line count
+
+Why Unix tools were used:
+
+They are fast and efficient for text processing.
+
+Useful for small and medium-sized data sets.
+
+Easy to automate using shell scripts.
+
 Sensor data from IoT devices
 
 Banking and e-commerce transactions
