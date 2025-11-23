@@ -98,4 +98,93 @@ Easy to automate using shell scripts.
 
 Sensor data from IoT devices
 
+
+
+
+Here are **easy, exam-ready answers** for **Hadoop Streaming** and **Hadoop Ecosystem**, suitable for **3–6 marks**.
+
+---
+
+# **1. Hadoop Streaming (3–6 marks)**
+
+**Hadoop Streaming** is a tool provided with Hadoop that allows you to write **MapReduce programs using any programming language**, not only Java.
+
+### **Key Points**
+
+* Normally, MapReduce is written in **Java**, but Hadoop Streaming lets you use **Python, C++, Ruby, Shell Script**, etc.
+* It works by sending input data to your script via **standard input (stdin)** and reading the output from **standard output (stdout)**.
+* Your script acts like a **mapper** or **reducer**.
+
+### **How it Works**
+
+1. Write a simple script (example: Python) that reads text and prints key-value pairs.
+2. Run the script using the Hadoop Streaming command.
+3. Hadoop takes your script as mapper/reducer and processes data on the cluster.
+
+### **Advantages**
+
+* Easy to write simple data analysis programs.
+* No need to learn Java for MapReduce.
+* Good for rapid development and testing.
+* Supports all languages that can read and write text.
+
+### **Example**
+
+Word count in Python can be used as a MapReduce job through Hadoop Streaming.
+
+### **Short Answer**
+
+Hadoop Streaming is a utility that lets you run MapReduce jobs using any language that can read/write text. It uses stdin/stdout to communicate between Hadoop and the user script.
+
+---
+
+# **2. Hadoop Ecosystem (3–6 marks)**
+
+The **Hadoop Ecosystem** refers to all the tools, frameworks, and technologies built around Hadoop to store, process, analyse, and manage big data.
+
+### **Main Components of the Hadoop Ecosystem**
+
+#### **1. Storage Layer**
+
+* **HDFS (Hadoop Distributed File System)** – Stores huge data across multiple machines.
+* **HBase** – NoSQL database for real-time read/write.
+
+#### **2. Processing Layer**
+
+* **MapReduce** – Batch data processing.
+* **Apache Spark** – Fast in-memory processing.
+* **Tez** – Faster processing engine for Hive and Pig.
+
+#### **3. Data Analysis Tools**
+
+* **Hive** – SQL-like queries for big data.
+* **Pig** – Scripting language for big data analysis.
+
+#### **4. Data Ingestion Tools**
+
+* **Sqoop** – Transfer data between Hadoop and relational databases.
+* **Flume** – Collects streaming data (logs, social media).
+
+#### **5. Resource Management**
+
+* **YARN (Yet Another Resource Negotiator)** – Allocates resources and manages cluster jobs.
+
+#### **6. Workflow Scheduling**
+
+* **Oozie** – Schedules and manages Hadoop jobs.
+* **Zookeeper** – Coordinates distributed applications.
+
+#### **7. Search and Indexing**
+
+* **Solr / Lucene** – Search engine for big data.
+
+### **Short Answer**
+
+The Hadoop Ecosystem is a collection of tools such as HDFS, MapReduce, YARN, Hive, Pig, HBase, Sqoop, Flume, and Spark that work together to store, process, manage, and analyse large datasets.
+
+---
+
+If you want, I can also give you **IBM Big Data Strategy**, **Infosphere BigInsights**, and **BigSheets** answers in exam format.
+
+
 Banking and e-commerce transactions
